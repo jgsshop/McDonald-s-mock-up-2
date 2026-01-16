@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>McDonald's | I'm Lovin' It (2000s Style Mockup)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Old-school vibes: system fonts, bright colors, tables, gradients -->
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: repeating-linear-gradient(45deg, #ff00ff, #ff00ff 10px, #00ffff 10px, #00ffff 20px);
+      font-family: "Comic Sans MS", "Trebuchet MS", Verdana, Arial;
+      color: #000;
+      cursor: crosshair;
+    }
+
+    a {
+      color: #0000ff;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+
+    a:hover {
+      color: #ff00ff;
+      background: #00ffff;
+    }
+
+    .page {
+      width: 960px;
+      margin: 20px auto;
+      background: radial-gradient(circle at top, #ffffff, #cccccc);
+      border: 6px ridge #ff00ff;
+      box-shadow: 0 0 20px #00ffff;
+    }
+
+    .top-bar {
+      background: linear-gradient(to right, #0000ff, #ff00ff, #00ffff);
+      color: #fff;
+      padding: 6px 10px;
+      font-size: 12px;
+      text-align: center;
+      letter-spacing: 2px;
+    }
+
+    .header {
+      background: linear-gradient(#ff0000, #ff9900, #ffff00);
+      padding: 20px;
+      border-bottom: 5px groove #00ffff;
+    }
+
+    .logo {
+      font-size: 48px;
+      font-weight: bold;
+      color: #ffffff;
+      text-shadow: 3px 3px #0000ff, -3px -3px #ff00ff;
+    }
+
+    .tagline {
+      font-size: 18px;
+      color: #0000ff;
+      background: #00ffff;
+      padding: 5px;
+      border: 3px outset #ff00ff;
+    }
+
+    .nav {
+      background: linear-gradient(#cccccc, #ffffff);
+      border-top: 5px outset #ff00ff;
+      border-bottom: 5px inset #00ffff;
+    }
+
+    .nav td {
+      padding: 12px;
+      font-size: 14px;
+      background: linear-gradient(#ffffff, #999999);
+      border: 2px outset #0000ff;
+    }
+
+    .content {
+      padding: 15px;
+      background: url('https://www.transparenttextures.com/patterns/stardust.png');
+    }
+
+    .sidebar {
+      width: 250px;
+      background: linear-gradient(#ffccff, #ccffff);
+      border: 4px dashed #ff00ff;
+      padding: 10px;
+      font-size: 13px;
+      text-align: center;
+    }
+
+    .main {
+      padding: 15px;
+    }
+
+    .promo {
+      background: radial-gradient(circle, #ff00ff, #0000ff);
+      color: #ffffff;
+      padding: 20px;
+      margin-bottom: 15px;
+      border: 6px double #00ffff;
+      text-align: center;
+    }
+
+    .menu-item {
+      border: 3px groove #ff00ff;
+      margin-bottom: 12px;
+      padding: 12px;
+      background: linear-gradient(#ffffff, #ccffcc);
+    }
+
+    .menu-item h3 {
+      margin: 0 0 5px 0;
+      color: #ff00ff;
+      text-shadow: 1px 1px #0000ff;
+    }
+
+    .footer {
+      background: linear-gradient(to right, #0000ff, #ff00ff);
+      color: #ffffff;
+      text-align: center;
+      font-size: 11px;
+      padding: 12px;
+      border-top: 5px ridge #00ffff;
+    }
+
+    .blink {
+      animation: blink 0.8s step-start infinite;
+      color: #ff0000;
+      font-size: 16px;
+    }
+
+    marquee {
+      font-size: 14px;
+      color: #0000ff;
+      font-weight: bold;
+    }
+
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="page">
+
+    <div class="top-bar">
+      ★★★ WELCOME TO McDONALDS.COM ★★★ BEST VIEWED IN INTERNET EXPLORER 6 ★★★
+    </div>
+
+    <div class="header">
+      <table width="100%">
+        <tr>
+          <td class="logo">McDonald's</td>
+          <td align="right">
+            <div class="tagline">I'm Lovin' It</div>
+          </td>
+        </tr>
+      </table>
+      <marquee scrollamount="6">🔥 FREE TOY INSIDE EVERY HAPPY MEAL 🔥 LIMITED TIME ONLY 🔥</marquee>
+    </div>
+
+    <div class="nav">
+      <table>
+        <tr>
+          <td><a href="#">Home</a></td>
+          <td><a href="#">Menu</a></td>
+          <td><a href="#">Happy Meal</a></td>
+          <td><a href="#">Promotions</a></td>
+          <td><a href="#">Find a Store</a></td>
+          <td><a href="#">About Us</a></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="content">
+      <table>
+        <tr valign="top">
+
+          <td class="sidebar">
+            <strong class="blink">NEW!</strong><br><br>
+            • Limited Time Burgers<br>
+            • Happy Meal Toys<br>
+            • McFlurry Flavors<br>
+            • Online Nutrition Guide<br><br>
+            <img src="https://via.placeholder.com/200x120" alt="Promo Image" width="100%">
+          </td>
+
+          <td class="main">
+
+            <div class="promo">
+              <h2>Big Mac® Combo Deal</h2>
+              <p>Only $5.99 for a limited time!</p>
+            </div>
+
+            <div class="menu-item">
+              <h3>Big Mac®</h3>
+              <p>Two all-beef patties, special sauce, lettuce, cheese, pickles, onions on a sesame seed bun.</p>
+            </div>
+
+            <div class="menu-item">
+              <h3>Quarter Pounder® with Cheese</h3>
+              <p>Fresh beef, cheese, onions, pickles, ketchup & mustard.</p>
+            </div>
+
+            <div class="menu-item">
+              <h3>Chicken McNuggets®</h3>
+              <p>Crispy, golden, and perfect for dipping.</p>
+            </div>
+
+          </td>
+
+        </tr>
+      </table>
+    </div>
+
+    <div class="footer">
+      © 2003 McDonald's Corporation · Privacy Policy · Terms of Use<br>
+      This is a visual mockup inspired by early 2000s web design.
+    </div>
+
+  </div>
+
+</body>
+</html>
